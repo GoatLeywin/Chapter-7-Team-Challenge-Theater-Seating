@@ -1,5 +1,5 @@
-#Theater Seating Program - README
-##Overview
+# Theater Seating Program - README
+## Overview
 This program simulates a theater ticket sales system. It allows users to:
 
 Set seat prices for each row.
@@ -11,8 +11,8 @@ The auditorium has 15 rows and 30 seats per row.
 
 The program is designed as a collaborative project for three team members, with tasks divided for equal workload. It uses GitHub for version control and can be implemented as a single-file or multi-file project.
 
-##Team Responsibilities
-###Team Member 1: Function main and Repository Setup
+## Team Responsibilities
+### Team Member 1: Function main and Repository Setup
 Responsibilities:
 
 Design and implement the main function, which orchestrates the program flow by calling other functions.
@@ -28,7 +28,7 @@ Displaying the seating chart.
 Selling tickets.
 Showing ticket sales and seat availability.
 Ensure seamless flow between the functions.
-###Team Member 2: Seating Chart and Price Management
+### Team Member 2: Seating Chart and Price Management
 Responsibilities:
 
 Handle seating chart display and management.
@@ -41,7 +41,7 @@ Tasks:
 Create a function to display the seating chart.
 Create a function to enter and store seat prices.
 Create a function to update the seating chart after tickets are sold.
-###Team Member 3: Ticket Sales and Statistics
+### Team Member 3: Ticket Sales and Statistics
 Responsibilities:
 
 Manage ticket sales and statistics.
@@ -58,8 +58,8 @@ Create a function to track total sales.
 Create a function to show statistics about:
 Seats sold and available per row.
 Seats sold and available for the entire theater.
-##Function Breakdown
-###Function Definitions
+## Function Breakdown
+### Function Definitions
 main() (Team Member 1)
 
 Orchestrates program execution by calling all other functions.
