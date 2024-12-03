@@ -60,26 +60,26 @@ Seats sold and available per row.
 Seats sold and available for the entire theater.
 ## Function Breakdown
 ### Function Definitions
-main() (Team Member 1)
+#### main() (Team Member 1)
 
 Orchestrates program execution by calling all other functions.
-enter_seat_prices() (Team Member 2)
+#### enter_seat_prices() (Team Member 2)
 
 Prompts the user to input prices for each row and stores them in an array.
-display_seating_chart() (Team Member 2)
+#### display_seating_chart() (Team Member 2)
 
 Displays the seating chart with taken (*) and available (#) seats.
-update_seating_chart(row, seat) (Team Member 2)
+#### update_seating_chart(row, seat) (Team Member 2)
 
 Updates the chart to mark purchased seats as taken (*).
-sell_tickets() (Team Member 3)
+#### sell_tickets() (Team Member 3)
 
 Prompts the user to select row and seat(s) and calculates the total price.
 Validates that selected seats are available.
-calculate_total_sales() (Team Member 3)
+#### calculate_total_sales() (Team Member 3)
 
 Keeps a running total of ticket sales.
-display_statistics() (Team Member 3)
+#### display_statistics() (Team Member 3)
 
 Shows:
 Seats sold and available per row.
