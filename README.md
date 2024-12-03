@@ -41,3 +41,46 @@ Tasks:
 Create a function to display the seating chart.
 Create a function to enter and store seat prices.
 Create a function to update the seating chart after tickets are sold.
+###Team Member 3: Ticket Sales and Statistics
+Responsibilities:
+
+Manage ticket sales and statistics.
+Implement functions to:
+Sell tickets.
+Calculate total ticket sales.
+Display statistics about sold and available seats.
+Tasks:
+
+Create a function to sell tickets:
+Validate seat availability.
+Calculate the total cost of tickets sold.
+Create a function to track total sales.
+Create a function to show statistics about:
+Seats sold and available per row.
+Seats sold and available for the entire theater.
+##Function Breakdown
+###Function Definitions
+main() (Team Member 1)
+
+Orchestrates program execution by calling all other functions.
+enter_seat_prices() (Team Member 2)
+
+Prompts the user to input prices for each row and stores them in an array.
+display_seating_chart() (Team Member 2)
+
+Displays the seating chart with taken (*) and available (#) seats.
+update_seating_chart(row, seat) (Team Member 2)
+
+Updates the chart to mark purchased seats as taken (*).
+sell_tickets() (Team Member 3)
+
+Prompts the user to select row and seat(s) and calculates the total price.
+Validates that selected seats are available.
+calculate_total_sales() (Team Member 3)
+
+Keeps a running total of ticket sales.
+display_statistics() (Team Member 3)
+
+Shows:
+Seats sold and available per row.
+Seats sold and available in the entire auditorium.
