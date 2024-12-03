@@ -12,7 +12,7 @@ The auditorium has 15 rows and 30 seats per row.
 The program is designed as a collaborative project for three team members, with tasks divided for equal workload. It uses GitHub for version control and can be implemented as a single-file or multi-file project.
 
 ## Team Responsibilities
-### Team Member 1: Function main and Repository Setup
+### Cole: Function main and Repository Setup
 Responsibilities:
 
 Design and implement the main function, which orchestrates the program flow by calling other functions.
@@ -28,7 +28,7 @@ Displaying the seating chart.
 Selling tickets.
 Showing ticket sales and seat availability.
 Ensure seamless flow between the functions.
-### Team Member 2: Seating Chart and Price Management
+### Isaac: Seating Chart and Price Management
 Responsibilities:
 
 Handle seating chart display and management.
@@ -41,7 +41,7 @@ Tasks:
 Create a function to display the seating chart.
 Create a function to enter and store seat prices.
 Create a function to update the seating chart after tickets are sold.
-### Team Member 3: Ticket Sales and Statistics
+### Zach: Ticket Sales and Statistics
 Responsibilities:
 
 Manage ticket sales and statistics.
@@ -60,26 +60,26 @@ Seats sold and available per row.
 Seats sold and available for the entire theater.
 ## Function Breakdown
 ### Function Definitions
-#### main() (Team Member 1)
+#### main() (Cole)
 
 Orchestrates program execution by calling all other functions.
-#### enter_seat_prices() (Team Member 2)
+#### enter_seat_prices() (Isaac)
 
 Prompts the user to input prices for each row and stores them in an array.
-#### display_seating_chart() (Team Member 2)
+#### display_seating_chart() (Isaac)
 
 Displays the seating chart with taken (*) and available (#) seats.
-#### update_seating_chart(row, seat) (Team Member 2)
+#### update_seating_chart(row, seat) (Isaac)
 
 Updates the chart to mark purchased seats as taken (*).
-#### sell_tickets() (Team Member 3)
+#### sell_tickets() (Zach)
 
 Prompts the user to select row and seat(s) and calculates the total price.
 Validates that selected seats are available.
-#### calculate_total_sales() (Team Member 3)
+#### calculate_total_sales() (Zach)
 
 Keeps a running total of ticket sales.
-#### display_statistics() (Team Member 3)
+#### display_statistics() (Zach)
 
 Shows:
 Seats sold and available per row.
