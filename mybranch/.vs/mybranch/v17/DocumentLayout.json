@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2012325\\Desktop\\Chapter-7-Team-Challenge-Theater-Seating\\mybranch\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D7D44E3-D96B-4559-9BD6-085730272A47}|mybranch\\mybranch.vcxproj|C:\\Users\\2012325\\Desktop\\Chapter-7-Team-Challenge-Theater-Seating\\mybranch\\mybranch\\mybranch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7D7D44E3-D96B-4559-9BD6-085730272A47}|mybranch\\mybranch.vcxproj|solutionrelative:mybranch\\mybranch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mybranch.cpp",
+              "DocumentMoniker": "C:\\Users\\2012325\\Desktop\\Chapter-7-Team-Challenge-Theater-Seating\\mybranch\\mybranch\\mybranch.cpp",
+              "RelativeDocumentMoniker": "mybranch\\mybranch.cpp",
+              "ToolTip": "C:\\Users\\2012325\\Desktop\\Chapter-7-Team-Challenge-Theater-Seating\\mybranch\\mybranch\\mybranch.cpp",
+              "RelativeToolTip": "mybranch\\mybranch.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-03T20:35:24.697Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
