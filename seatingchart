@@ -1,0 +1,54 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+const int ROWS = 15;
+const int SEATS_PER_ROW = 30;
+
+char seatingChart[ROWS][SEATS_PER_ROW];
+double seatPrices[ROWS][SEATS_PER_ROW];
+
+Void SeatingChart() {
+    for (int i = 0; i < ROWS; i++) {
+        for (int j = 0; j < SEATS_PER_ROW; j++) {
+            seatingChart[i][j] = 'A'; // 'A' indicates available
+            seatPrices[i][j] = 0.0; // Initialize prices to 0
+        }
+    }
+}
+
+void displaySeatingChart() {
+    cout << "Seating Chart:\n";
+    for (int i = 0; i < ROWS; i++) {
+        for (int j = 0; j < SEATS_PER_ROW; j++) {
+            cout << seatingChart[i][j] << " ";
+        }
+        cout << endl;
+    }
+}
+
+void enterSeatPrices() {
+    for (int i = 0; i < ROWS; i++) {
+        double price;
+        cout << "Enter price for row " << i + 1 << ": ";
+        cin >> price;
+        for (int j = 0; j < SEATS_PER_ROW; j++) {
+            seatPrices[i][j] = price; // Set all seats in the row to the entered price
+        }
+    }
+}
+
+void updateSeatingChart(int row, int seat) {
+    if (seatingChart[row][seat] == 'A') {
+        seatingChart[row][seat] = 'S'; // 'S' indicates sold
+    } else {
+        cout << "Seat already sold!" << endl;
+    }
+}
+
+
+
+
+
+
